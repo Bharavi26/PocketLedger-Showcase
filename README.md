@@ -92,6 +92,16 @@ Design in brief:
   snapshots, and a contract test pins file names and settings keys so an
   app update never loses data.
 
+## What's next
+
+Planned for future versions (not available yet):
+
+- **Online sync:** optional sync of your ledger across your devices. The
+  current app stays fully offline, and sync would be opt-in.
+- **Sharing transactions with parties:** share a transaction or a shared
+  expense with the people involved, such as friends, family or a business
+  contact.
+
 ## Privacy and terms
 
 - [Privacy policy](docs/PRIVACY_POLICY.md) — the app collects and sends no
