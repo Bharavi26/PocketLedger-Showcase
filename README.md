@@ -55,7 +55,7 @@ set to INR.
 |---|---|
 | Transactions | Add, edit and delete income and expenses with title, amount, category, date, payment method and notes. Search, filter (type, categories, payment methods, date range) and sort. |
 | Categories | 15 built-in categories plus your own, with icon and colour. Deleting a category that is in use moves its transactions to another category of the same type. |
-| Budgets | Monthly limits for all spending or one expense category. They recur every month, can be changed from the current month on or turned off, and past months keep the limits they had. On-track, near-limit and over-budget states use an icon and a label, not colour alone. |
+| Budgets | Monthly limits for all spending or one expense category. They recur every month, can be changed from the current month on or turned off, and past months keep the limits they had. On-track, near-limit and over-budget states use an icon and a label, not colour alone. Optional budget alerts send a phone notification when a budget reaches a level you choose (50–100 %). |
 | Dashboard | Month summary (income, expenses, net balance), budget progress, spending by category, a six-month income-vs-expense chart and recent transactions. |
 | Reports | This month, last month or a custom range: comparison with the previous period, breakdowns by category, monthly trends and budget performance. |
 | CSV export | Export everything or a date range and share or save it through the system share menu. Opens in Excel, Numbers and Google Sheets. |
@@ -71,6 +71,7 @@ set to INR.
 | State management | `flutter_bloc` (Cubit) |
 | Database | Drift on SQLite, with schema snapshots and migration tests |
 | Charts | `fl_chart` |
+| Notifications | `flutter_local_notifications`, for optional on-device budget alerts |
 | Localisation | Flutter `gen-l10n` with ARB files; right-to-left layout for Arabic |
 | Testing | `flutter_test`, `bloc_test`, `mocktail`, in-memory SQLite |
 | CI | GitHub Actions: format, static analysis, tests and generated-code checks on every change |
@@ -96,15 +97,6 @@ Design in brief:
 - [Privacy policy](docs/PRIVACY_POLICY.md) — the app collects and sends no
   data.
 - [Terms of use](docs/TERMS_OF_USE.md)
-
-## Known limitations
-
-- Single device only, with no sync or cloud backup, by design. Export to
-  CSV before changing phones.
-- The Arabic and Hindi translations have not yet been reviewed by native
-  speakers.
-- iOS has not been built or tested yet.
-- Budget warnings appear in the app only; there are no notifications.
 
 ## Copyright
 

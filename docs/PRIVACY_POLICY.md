@@ -18,6 +18,10 @@ The transactions, categories and budgets you enter, and your settings (such as l
 
 The app does not request permission to use the internet and has no accounts, advertising, analytics, crash reporting or third-party tracking.
 
+## Notifications
+
+If you turn on budget alerts in Settings, the app asks for permission to show notifications and shows one when a budget reaches the level you chose. Alerts are created on your device from your own data; nothing is sent anywhere. You can turn them off in Settings or in your device's notification settings.
+
 ## Backups
 
 On Android, the app's data is excluded from Google cloud backup. On Android 12 and later, a direct transfer from one phone to another while setting up a new phone may copy it.
