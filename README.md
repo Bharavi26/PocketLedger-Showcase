@@ -27,10 +27,12 @@ request the internet permission. It is available in English, Arabic
   small phones to tablets with text up to 200 %.
 - **Built for large ledgers:** totals are computed in the database, and the
   history loads 100 rows at a time as you scroll.
-- **More than 540 automated tests** — unit, database, state and whole-app
+- **Nearly 600 automated tests** — unit, database, state and whole-app
   widget tests — run on every change.
 
 ## Screenshots
+
+### Android
 
 Release build on an Android phone, in demo mode with the display currency
 set to INR.
@@ -42,6 +44,18 @@ set to INR.
 | Budgets | Reports | Settings | Arabic (right-to-left) |
 |---|---|---|---|
 | ![Budgets](docs/screenshots/05_budgets.png) | ![Reports](docs/screenshots/06_reports.png) | ![Settings](docs/screenshots/07_settings.png) | ![Dashboard in Arabic](docs/screenshots/08_dashboard_arabic.png) |
+
+### iOS
+
+iPhone 17 Pro simulator (iOS 26.2), with the display currency set to USD.
+
+| Dashboard | Transactions | Add transaction | Budgets |
+|---|---|---|---|
+| ![Dashboard on iOS](docs/screenshots/ios/01_dashboard.png) | ![Transactions on iOS](docs/screenshots/ios/02_transactions.png) | ![Add transaction on iOS](docs/screenshots/ios/03_add_transaction.png) | ![Budgets on iOS](docs/screenshots/ios/04_budgets.png) |
+
+| Reports | Budget alert | Dark mode | Arabic (right-to-left) |
+|---|---|---|---|
+| ![Reports charts on iOS](docs/screenshots/ios/05_reports.png) | ![Budget alert on the iOS lock screen](docs/screenshots/ios/06_budget_alert.jpg) | ![Dashboard in dark mode on iOS](docs/screenshots/ios/07_dashboard_dark.png) | ![Dashboard in Arabic on iOS](docs/screenshots/ios/08_dashboard_arabic.png) |
 
 ## Feature demos
 
