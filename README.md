@@ -115,6 +115,8 @@ Planned for future versions (not available yet):
 - **Sharing transactions with parties:** share a transaction or a shared
   expense with the people involved, such as friends, family or a business
   contact.
+- **Encrypted backup:** an optional password-protected backup of your ledger
+  that you can restore on a new phone. Today's export is a plain CSV file.
 
 ## Privacy and terms
 
